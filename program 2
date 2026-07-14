@@ -4,3 +4,4 @@ if(num%2==0):
 print("even")
 else:
 ptint("odd")
+//even or not
