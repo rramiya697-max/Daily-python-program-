@@ -1,0 +1,14 @@
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+x = a
+y = b
+
+while b != 0:
+    a, b = b, a % b
+
+hcf = a
+lcm = (x * y) // hcf
+
+print("LCM =", lcm)
+//lowest common multiple 
